@@ -1,6 +1,5 @@
-=================================================
 The OpenACC Sparse Fast Fourier Transform Library 
-=================================================
+
 
 Version 1.0
 April 2017
