@@ -1,0 +1,97 @@
+[ 1/32] cxx: src/common.cc -> build/src/common.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/common.cc', '-c', '-o', 'src/common.cc.1.o']
+[ 2/32] cxx: src/computefourier-1.0-2.0.cc -> build/src/computefourier-1.0-2.0.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-1.0-2.0.cc', '-c', '-o', 'src/computefourier-1.0-2.0.cc.1.o']
+[ 3/32] cxx: src/computefourier-3.0.cc -> build/src/computefourier-3.0.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-3.0.cc', '-c', '-o', 'src/computefourier-3.0.cc.1.o']
+[ 4/32] cxx: src/fftw.cc -> build/src/fftw.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/fftw.cc', '-c', '-o', 'src/fftw.cc.1.o']
+[ 5/32] cxx: src/filters.cc -> build/src/filters.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/filters.cc', '-c', '-o', 'src/filters.cc.1.o']
+[ 6/32] cxx: src/parameters.cc -> build/src/parameters.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/parameters.cc', '-c', '-o', 'src/parameters.cc.1.o']
+[ 7/32] cxx: src/sfft.cc -> build/src/sfft.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/sfft.cc', '-c', '-o', 'src/sfft.cc.1.o']
+[ 8/32] cxx: src/simulation.cc -> build/src/simulation.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/simulation.cc', '-c', '-o', 'src/simulation.cc.1.o']
+[ 9/32] cxx: src/timer.cc -> build/src/timer.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/timer.cc', '-c', '-o', 'src/timer.cc.1.o']
+[10/32] cxx: src/utils.cc -> build/src/utils.cc.1.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/utils.cc', '-c', '-o', 'src/utils.cc.1.o']
+[11/32] cxx: src/common.cc -> build/src/common.cc.2.o
+[14/32] cxx: src/computefourier-1.0-2.0.cc -> build/src/computefourier-1.0-2.0.cc.2.o
+[14/32] cxx: src/computefourier-3.0.cc -> build/src/computefourier-3.0.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/common.cc', '-c', '-o', 'src/common.cc.2.o']
+[14/32] cxx: src/fftw.cc -> build/src/fftw.cc.2.o
+[16/32] cxx: src/parameters.cc -> build/src/parameters.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-1.0-2.0.cc', '-c', '-o', 'src/computefourier-1.0-2.0.cc.2.o']
+[16/32] cxx: src/filters.cc -> build/src/filters.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-3.0.cc', '-c', '-o', 'src/computefourier-3.0.cc.2.o']
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/parameters.cc', '-c', '-o', 'src/parameters.cc.2.o']
+[17/32] cxx: src/sfft.cc -> build/src/sfft.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/fftw.cc', '-c', '-o', 'src/fftw.cc.2.o']
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/filters.cc', '-c', '-o', 'src/filters.cc.2.o']
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/sfft.cc', '-c', '-o', 'src/sfft.cc.2.o']
+[18/32] cxx: src/simulation.cc -> build/src/simulation.cc.2.o
+[19/32] cxx: src/timer.cc -> build/src/timer.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/simulation.cc', '-c', '-o', 'src/simulation.cc.2.o']
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/timer.cc', '-c', '-o', 'src/timer.cc.2.o']
+[20/32] cxx: src/utils.cc -> build/src/utils.cc.2.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/utils.cc', '-c', '-o', 'src/utils.cc.2.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[21/32] cxx: src/common.cc -> build/src/common.cc.3.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/common.cc', '-c', '-o', 'src/common.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[22/32] cxx: src/computefourier-1.0-2.0.cc -> build/src/computefourier-1.0-2.0.cc.3.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-1.0-2.0.cc', '-c', '-o', 'src/computefourier-1.0-2.0.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[23/32] cxx: src/computefourier-3.0.cc -> build/src/computefourier-3.0.cc.3.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/computefourier-3.0.cc', '-c', '-o', 'src/computefourier-3.0.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[24/32] cxx: src/fftw.cc -> build/src/fftw.cc.3.o
+14:52:43 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/fftw.cc', '-c', '-o', 'src/fftw.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[25/32] cxx: src/filters.cc -> build/src/filters.cc.3.o
+14:52:44 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/filters.cc', '-c', '-o', 'src/filters.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[26/32] cxx: src/parameters.cc -> build/src/parameters.cc.3.o
+14:52:44 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/parameters.cc', '-c', '-o', 'src/parameters.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[27/32] cxx: src/sfft.cc -> build/src/sfft.cc.3.o
+14:52:44 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/sfft.cc', '-c', '-o', 'src/sfft.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[28/32] cxx: src/simulation.cc -> build/src/simulation.cc.3.o
+14:52:45 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/simulation.cc', '-c', '-o', 'src/simulation.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[29/32] cxx: src/timer.cc -> build/src/timer.cc.3.o
+14:52:46 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/timer.cc', '-c', '-o', 'src/timer.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[30/32] cxx: src/utils.cc -> build/src/utils.cc.3.o
+14:52:47 runner ['icpc', '-I/opt/shared/fftw/3.3.4/include', '-fp-model', 'precise', '-g', '-O2', '-fPIC', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/src/flopcount', '-I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount', '-I/opt/shared/fftw/3.3.4/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '-DHAVE_IPP=1', '../src/utils.cc', '-c', '-o', 'src/utils.cc.3.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[31/32] cxxstlib: build/src/common.cc.2.o build/src/computefourier-1.0-2.0.cc.2.o build/src/computefourier-3.0.cc.2.o build/src/fftw.cc.2.o build/src/filters.cc.2.o build/src/parameters.cc.2.o build/src/sfft.cc.2.o build/src/simulation.cc.2.o build/src/timer.cc.2.o build/src/utils.cc.2.o -> build/libsfft.a
+14:52:54 runner ['/usr/bin/ar', 'rcs', 'libsfft.a', 'src/common.cc.2.o', 'src/computefourier-1.0-2.0.cc.2.o', 'src/computefourier-3.0.cc.2.o', 'src/fftw.cc.2.o', 'src/filters.cc.2.o', 'src/parameters.cc.2.o', 'src/sfft.cc.2.o', 'src/simulation.cc.2.o', 'src/timer.cc.2.o', 'src/utils.cc.2.o']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+[32/32] cxxshlib: build/src/common.cc.3.o build/src/computefourier-1.0-2.0.cc.3.o build/src/computefourier-3.0.cc.3.o build/src/fftw.cc.3.o build/src/filters.cc.3.o build/src/parameters.cc.3.o build/src/sfft.cc.3.o build/src/simulation.cc.3.o build/src/timer.cc.3.o build/src/utils.cc.3.o -> build/libsfft.so
+14:52:55 runner ['icpc', '-L/opt/shared/fftw/3.3.4/lib', '-shared', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-Wall', 'src/common.cc.3.o', 'src/computefourier-1.0-2.0.cc.3.o', 'src/computefourier-3.0.cc.3.o', 'src/fftw.cc.3.o', 'src/filters.cc.3.o', 'src/parameters.cc.3.o', 'src/sfft.cc.3.o', 'src/simulation.cc.3.o', 'src/timer.cc.3.o', 'src/utils.cc.3.o', '-o', '/home/1638/sFFT/originalImplementation/sfft-0.1.0/build/libsfft.so', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/opt/shared/fftw/3.3.4/lib', '-lippvm', '-lipps', '-lpthread', '-lgomp', '-lfftw3', '-lm', '-lrt']
+icpc: command line warning #10006: ignoring unknown option '-ffast-math'
+Waf: Leaving directory `/home/1638/sFFT/originalImplementation/sfft-0.1.0/build'
+'build' finished successfully (12.607s)

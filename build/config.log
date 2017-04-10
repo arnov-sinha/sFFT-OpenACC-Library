@@ -1,0 +1,127 @@
+# project sfft (0.1.0) configured on Sun Apr  9 22:51:19 2017 by
+# waf 1.7.5 (abi 98, python 2070cf0 on linux2)
+# using /home/arnov/Documents/git/private_codes/sfft-0.1.0/tools/waf configure --without-ipp --profile --develop
+#
+----------------------------------------
+Setting top to
+/home/arnov/Documents/git/private_codes/sfft-0.1.0
+----------------------------------------
+Setting out to
+/home/arnov/Documents/git/private_codes/sfft-0.1.0/build
+----------------------------------------
+Checking for 'g++' (c++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/texlive/2016/bin/x86_64-linux', '/usr/local/cuda-8.0/bin', '/opt/pgi/linux86-64/16.10/bin', '/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/snap/bin'] var='CXX' -> '/usr/bin/g++'
+find program=['ar'] paths=['/usr/local/texlive/2016/bin/x86_64-linux', '/usr/local/cuda-8.0/bin', '/opt/pgi/linux86-64/16.10/bin', '/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/snap/bin'] var='AR' -> '/usr/bin/ar'
+/usr/bin/g++
+----------------------------------------
+Checking for program pkg-config
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/texlive/2016/bin/x86_64-linux', '/usr/local/cuda-8.0/bin', '/opt/pgi/linux86-64/16.10/bin', '/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/snap/bin'] var='PKGCONFIG' -> '/usr/bin/pkg-config'
+----------------------------------------
+Checking for 'valgrind'
+['/usr/bin/pkg-config', '--cflags', 'valgrind']
+out: -I/usr/include/valgrind
+
+yes
+----------------------------------------
+Checking for 'fftw3'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'fftw3']
+out: -I/usr/local/include -L/usr/local/lib -lfftw3 -lm
+
+yes
+----------------------------------------
+Checking for library m
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_61c8587f83a8fc72a9bb91e736eff573/test.cpp -> build/.conf_check_61c8587f83a8fc72a9bb91e736eff573/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_61c8587f83a8fc72a9bb91e736eff573/testbuild/test.cpp.1.o -> build/.conf_check_61c8587f83a8fc72a9bb91e736eff573/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_61c8587f83a8fc72a9bb91e736eff573/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lm']
+yes
+----------------------------------------
+Checking for library rt
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_4c552ccf3fc6a31469154aef7c165d6f/test.cpp -> build/.conf_check_4c552ccf3fc6a31469154aef7c165d6f/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_4c552ccf3fc6a31469154aef7c165d6f/testbuild/test.cpp.1.o -> build/.conf_check_4c552ccf3fc6a31469154aef7c165d6f/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_4c552ccf3fc6a31469154aef7c165d6f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+yes
+----------------------------------------
+Checking for library gomp
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_2c6edaf0f204d8b76311986241479db2/test.cpp -> build/.conf_check_2c6edaf0f204d8b76311986241479db2/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_2c6edaf0f204d8b76311986241479db2/testbuild/test.cpp.1.o -> build/.conf_check_2c6edaf0f204d8b76311986241479db2/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_2c6edaf0f204d8b76311986241479db2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lgomp']
+yes
+-------------------------------------------------------------------------------
+Checking for compiler flags ['-O3', '-ffast-math', '-march=native', '-fopenmp']
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_ef15c0e9cf5eab94b5514fb2fd582261/test.cpp -> build/.conf_check_ef15c0e9cf5eab94b5514fb2fd582261/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-O3', '-ffast-math', '-march=native', '-fopenmp', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_ef15c0e9cf5eab94b5514fb2fd582261/testbuild/test.cpp.1.o -> build/.conf_check_ef15c0e9cf5eab94b5514fb2fd582261/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', '-O3', '-ffast-math', '-march=native', '-fopenmp', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_ef15c0e9cf5eab94b5514fb2fd582261/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-------------------------------------------------------------------------------
+Checking for compiler flags ['-Wall']
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_0dd66cb09edd131affdb8715bb30d864/test.cpp -> build/.conf_check_0dd66cb09edd131affdb8715bb30d864/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-Wall', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_0dd66cb09edd131affdb8715bb30d864/testbuild/test.cpp.1.o -> build/.conf_check_0dd66cb09edd131affdb8715bb30d864/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', '-Wall', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_0dd66cb09edd131affdb8715bb30d864/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-------------------------------------------------------------------------------
+Checking for compiler flags ['-pg']
+==>
+
+int main(int argc, char **argv) {
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_0ccf428b980a8e3ab69e435675c5c85c/test.cpp -> build/.conf_check_0ccf428b980a8e3ab69e435675c5c85c/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/local/fftw/include', '-I/usr/include', '-pg', '-DHAVE_VALGRIND=1', '-DHAVE_FFTW3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_0ccf428b980a8e3ab69e435675c5c85c/testbuild/test.cpp.1.o -> build/.conf_check_0ccf428b980a8e3ab69e435675c5c85c/testbuild/testprog
+[0m
+['/usr/bin/g++', '-L/usr/local/lib', '-L/usr/local/fftw/lib', '-pg', 'test.cpp.1.o', '-o', '/home/arnov/Documents/git/private_codes/sfft-0.1.0/build/.conf_check_0ccf428b980a8e3ab69e435675c5c85c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes

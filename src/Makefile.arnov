@@ -1,0 +1,59 @@
+SHELL=/bin/sh
+CXX:=g++
+CXXFLAGS:=-I/opt/shared/fftw/3.3.4/include -fPIC -O3 -ffast-math -march=native -fopenmp -Wall -I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount -I/home/1638/sFFT/originalImplementation/sfft-0.1.0/src/flopcount -I/opt/shared/fftw/3.3.4/include -DHAVE_VALGRIND=1-DHAVE_FFTW3=1
+CXX_DYNAMIC:=-shared -O3 -ffast-math -march=native -fopenmp -Wall common.o computefourier-1.0-2.0.o computefourier-3.0.o fftw.o filters.o parameters.o sfft.o simulation.o timer.o utils.o -o /home/1638/sFFT/originalImplementation/sfft-0.1.0/src/build/libsfft.so -Wl,-Bstatic -Wl,-Bdynamic -L/opt/shared/fftw/3.3.4/lib -lgomp -lfftw3 -lm -lrt
+CXX_STATIC:=-shared -O3 -ffast-math -march=native -fopenmp -Wall common.o computefourier-1.0-2.0.o computefourier-3.0.o fftw.o filters.o parameters.o sfft.o simulation.o timer.o utils.o -o /home/1638/sFFT/originalImplementation/sfft-0.1.0/src/build/libsfft.so -Wl,-Bstatic -Wl,-Bdynamic -L/opt/shared/fftw/3.3.4/lib -lgomp -lfftw3 -lm -lrt
+
+OBJS = common.o\
+	computefourier-1.0-2.0.o\
+	computefourier-3.0.o\
+	fftw.o\
+	filters.o\
+	parameters.o\
+	sfft.o\
+	simulation.o\
+	timer.o\
+	utils.o
+
+exec: $(OBJS)
+	${CXX} ${CXX_DYNAMIC} -o libsfft.so
+	${CXX} ${CXX_STATIC} -o libsfft.a
+
+app: $(exec)
+	$(CXX) $(CXXFLAGS) -L./ -L${FFTW_PREFIX}/lib -lm -lrt -lsfft -lfftw3 test.c -o test
+
+.cc.o:
+	${CXX} ${CXXFLAGS} -c $<
+
+# bt.o:             bt.c  header.h npbparams.h
+# initialize.o:     initialize.c  header.h npbparams.h
+# exact_solution.o: exact_solution.c  header.h npbparams.h
+# exact_rhs.o:      exact_rhs.c  header.h npbparams.h
+# set_constants.o:  set_constants.c  header.h npbparams.h
+# adi.o:            adi.c  header.h npbparams.h
+# rhs.o:            rhs.c  header.h npbparams.h
+# x_solve$(VEC).o:  x_solve$(VEC).c  header.h  npbparams.h
+# y_solve$(VEC).o:  y_solve$(VEC).c  header.h  npbparams.h
+# z_solve$(VEC).o:  z_solve$(VEC).c  header.h  npbparams.h
+# solve_subs.o:     solve_subs.c  npbparams.h
+# add.o:            add.c  header.h npbparams.h
+# error.o:          error.c  header.h npbparams.h
+# verify.o:         verify.c  header.h npbparams.h
+
+common.o: common.cc 
+computefourier-1.0-2.0.o: computefourier-1.0-2.0.cc 
+computefourier-3.0.o: computefourier-3.0.cc 
+fftw.o: fftw.cc 
+filters.o: filters.cc 
+#instruction_count.o: instruction_count.cc flopcount/flopcount.h
+parameters.o: parameters.cc 
+sfft.o: sfft.cc 
+simulation.o: simulation.cc 
+timer.o: timer.cc 
+utils.o: utils.cc 
+
+
+clean:
+	rm ${OBJS} libsfft.*
+
+  
