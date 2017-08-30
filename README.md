@@ -1,8 +1,10 @@
 Update: August 30th, 2017
 
-The exact optimized parallelization for GPU, Multicore , DSP is not updated on the public repository. As i am writing a paper to publish it. As soon as i submit my papers, i will publish the optimized OpenSource Code. :)
+The exact optimized parallelization for GPU, Multicore , DSP is not updated 
+on the public repository. As i am writing a paper to publish it. As soon as 
+I submit my papers, i will publish the optimized OpenSource Code. :)
 
-
+_______________________________________________________________________________
 
 The OpenACC Sparse Fast Fourier Transform Library 
 
